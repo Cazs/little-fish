@@ -1,0 +1,18 @@
+<Project>
+  <PropertyGroup>
+    <LangVersion>11</LangVersion>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <Authors>Casper Ndlovu</Authors>
+    <Copyright>Copyright© Casper Ndlovu 2023</Copyright>
+    <Version>1.3.0</Version>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <RunAnalyzersDuringBuild>true</RunAnalyzersDuringBuild>
+    <RunAnalyzersDuringLiveAnalysis>true</RunAnalyzersDuringLiveAnalysis>
+    <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)LittleFish.NetCoreBoilerplate.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+</Project>
